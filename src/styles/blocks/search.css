@@ -1,5 +1,6 @@
 .search__bar {
-  margin-top: 20px;
+  margin-top: 20px auto 0;
+  ;
 }
 
 .search__bar--top {
@@ -28,7 +29,7 @@
   display: block;
 }
 
-.search__image-top {
+.search__image--top {
   background-image: url(../../images/Search.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -38,7 +39,7 @@
   left: 26px;
 }
 
-.search__image-bottom {
+.search__image--bottom {
   background-image: url(../../images/Search.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -64,13 +65,13 @@
   font-weight: inherit;
 }
 
-.search__input-top {
+.search__input--top {
   padding: 0 0 0 62px;
   line-height: 22px;
   font-size: inherit;
 }
 
-.search__input-bottom {
+.search__input--bottom {
   padding: 0 0 0 33px;
   font-size: 14px;
   line-height: 19px;
